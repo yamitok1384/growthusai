@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GrowthUSAI - Automatización IA</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'usai-dark': '#0a0a0c',
+                        'usai-teal': '#111827',
+                        'usai-green': '#10b981',
+                        'usai-green-neon': '#34d399',
+                    },
+                    fontFamily: { sans: ['Inter', 'sans-serif'] },
+                }
+            }
+        }
+    </script>
+    <style>
+        body { background-color: #0a0a0c; background-image: radial-gradient(circle at 10% 10%, rgba(16, 185, 129, 0.05) 0%, transparent 40%); }
+        .neon-box { box-shadow: 0 0 15px rgba(16, 185, 129, 0.2); transition: all 0.3s ease; }
+        .neon-box:hover { box-shadow: 0 0 20px rgba(16, 185, 129, 0.4); transform: translateY(-2px); }
+    </style>
+</head>
+<body class="text-gray-400 font-sans antialiased text-sm md:text-base">
+
+    <header class="border-b border-gray-800 bg-usai-dark/80 backdrop-blur-sm fixed top-0 w-full z-50">
+        <nav class="container mx-auto px-6 py-3 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <div class="w-7 h-7 rounded-full bg-gradient-to-br from-usai-green to-usai-green-neon flex items-center justify-center font-bold text-usai-dark text-sm">G</div>
+                <span class="text-xl font-bold text-white tracking-tight">Growth<span class="text-usai-green">USAI</span></span>
+            </div>
+            <div class="hidden md:flex items-center gap-5 text-xs font-semibold uppercase tracking-wider text-gray-500">
+                <a href="#" class="hover:text-usai-green transition">Soluciones</a>
+                <a href="#" class="hover:text-usai-green transition">Quienes Somos</a>
+                <a href="#" class="hover:text-usai-green transition">Planes</a>
+                <a href="#" class="hover:text-usai-green transition">Sostenibilidad</a>
+                <a href="#" class="hover:text-usai-green transition">Contacto</a>
+
+                <a
+            </div>
+        </nav>
+    </header>
+
+    <div class="h-20"></div>
+
+    <main class="container mx-auto px-6 py-12 text-center">
+        <div class="max-w-3xl mx-auto">
+            <h1 class="text-3xl md:text-5xl font-extrabold text-white leading-tight mb-4">
+                Automatización Inteligente para Escalar tu Negocio.
+            </h1>
+            <p class="text-base md:text-lg text-gray-500 mb-8 max-w-xl mx-auto">
+                Implementamos soluciones de IA generativa y agentes autónomos. Más eficiencia, menos costes, 100% sostenible.
+            </p>
+            <a href="#" class="inline-block bg-gradient-to-r from-usai-green to-usai-green-neon text-usai-dark font-bold px-6 py-3 rounded-full text-sm neon-box">
+                RESERVA TU DIAGNÓSTICO
+            </a>
+        </div>
+    </main>
+
+    <section class="container mx-auto px-6 py-12 border-t border-gray-900">
+        <div class="flex flex-col md:flex-row items-center justify-center gap-8">
+            <div class="text-6xl">🌿</div>
+            <div class="max-w-md text-center md:text-left">
+                <div class="text-usai-green-neon text-[10px] font-bold tracking-[0.2em] uppercase mb-2">Compromiso</div>
+                <h2 class="text-2xl font-bold text-white mb-2">Green Coding</h2>
+                <p class="text-sm text-gray-500">Código eficiente y huella de carbono verificada para una tecnología responsable.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container mx-auto px-6 py-12 bg-gray-900/30 rounded-3xl border border-gray-800/50">
+        <h2 class="text-xl font-bold text-white mb-10 text-center">Soluciones a medida</h2>
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="bg-usai-teal/50 p-6 rounded-2xl border border-gray-800 hover:border-usai-green transition">
+                <div class="text-2xl mb-4">📱</div>
+                <h3 class="text-lg font-bold text-white mb-2">Autónomos</h3>
+                <p class="text-xs leading-relaxed text-gray-500">Gestión de citas y respuestas automáticas 24/7 en WhatsApp.</p>
+            </div>
+            <div class="bg-usai-teal/50 p-6 rounded-2xl border border-gray-800 hover:border-usai-green transition">
+                <div class="text-2xl mb-4">⚙️</div>
+                <h3 class="text-lg font-bold text-white mb-2">PYMES</h3>
+                <p class="text-xs leading-relaxed text-gray-500">Automatización de procesos financieros y gestión de inventario inteligente.</p>
+            </div>
+            <div class="bg-usai-teal/50 p-6 rounded-2xl border border-gray-800 hover:border-usai-green transition">
+                <div class="text-2xl mb-4">📊</div>
+                <h3 class="text-lg font-bold text-white mb-2">Empresas</h3>
+                <p class="text-xs leading-relaxed text-gray-500">Análisis predictivo y agentes especializados para grandes volúmenes de datos.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-10 text-center text-[10px] text-gray-600 uppercase tracking-widest">
+        © 2026 GrowthUSAI · Zaragoza
+    </footer>
+
+</body>
+</html>
